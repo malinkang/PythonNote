@@ -1,2 +1,9 @@
+<<<<<<< HEAD
+## Python学习资源整理
+* [Python教程](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000)
+* [awesome-python](https://github.com/vinta/awesome-python)
+* [requests](https://github.com/kennethreitz/requests/)
+=======
 # Initial page
 
+>>>>>>> 28dca8d37c11e61d45d7fc561c4e2233433fb55f
