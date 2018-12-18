@@ -1,17 +1,13 @@
-## 面向对象
+# 面向对象
 
+## 目录
 
-### 目录
+* [1.创建类](mian-xiang-dui-xiang.md#1.创建类)
+* [2.继承](mian-xiang-dui-xiang.md#2.继承)
 
-* [1.创建类](#1.创建类)
-* [2.继承](#2.继承)
+## 1.创建类 <a id="1.&#x521B;&#x5EFA;&#x7C7B;"></a>
 
-
-------------------------------------------
-
-<h3 id="1.创建类">1.创建类</h3>
-
-```Python
+```python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
@@ -32,12 +28,11 @@ class Student(object):
 stu = Student("malinkang",100)
 
 print "name is %s , score is %d" %(stu.get_name(),stu.get_score())
-
 ```
 
 当我们定义了一个class，创建了一个class的实例后，我们可以给该实例绑定任何属性和方法
 
-```Python
+```python
 #给实例绑定属性
 stu.age = 30
 
@@ -72,15 +67,13 @@ stu2=Student("hello",80)
 stu2.set_age(18)
 
 print "age is %d" % stu2.age
-
 ```
 
 Python允许在定义class的时候，定义一个特殊的`__slots__`变量，来限制该class能添加的属性。
 
 `__slots__`定义的属性仅对当前类起作用，对继承的子类是不起作用的。
 
-```Python
-
+```python
 #用tuple定义允许绑定的属性名称
 class Person(object):
     __slots__=("name","age")
@@ -95,12 +88,11 @@ p.gender="男"
 
 print "gender is %s" % p.gender
 #     p.gender="男" AttributeError: 'Person' object has no attribute 'gender'
-
 ```
+
 Python内置的`@property`装饰器负责把一个方法变成属性调用
 
-
-```Python
+```python
 class Book(object):
 
     @property
@@ -116,13 +108,11 @@ book = Book()
 book.price = 15.5
 
 print "price is %f" % book.price
-
 ```
 
-<h3 id="2.继承">2.继承</h3>
+## 2.继承 <a id="2.&#x7EE7;&#x627F;"></a>
 
-```Python
-
+```python
 #继承
 
 class Animal(object):
@@ -147,3 +137,4 @@ print isinstance(Dog(),Animal)
 
 # True
 ```
+

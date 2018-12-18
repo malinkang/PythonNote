@@ -1,17 +1,13 @@
-## IO编程
+# IO编程
 
+## 目录
 
-### 目录
-* [1.文件读写](#1.文件读写)
-* [2.操作文件和目录](#2.操作文件和目录)
+* [1.文件读写](io-bian-cheng.md#1.文件读写)
+* [2.操作文件和目录](io-bian-cheng.md#2.操作文件和目录)
 
+## 1.文件读写 <a id="1.&#x6587;&#x4EF6;&#x8BFB;&#x5199;"></a>
 
-
--------------------------------------------
-
-<h3 id="1.文件读写">1.文件读写</h3>
-
-```Python
+```python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #打开文件
@@ -33,13 +29,11 @@ with open("/Users/malinkang/Documents/Git/PythonNote/SUMMARY.md", 'r') as f:
 
 with open("/Users/malinkang/Documents/Git/PythonNote/SUMMARY.md", 'w') as f:
     print f.write('Hello,world')
-
 ```
 
-<h3 id="2.操作文件和目录">2.操作文件和目录</h3>
+## 2.操作文件和目录 <a id="2.&#x64CD;&#x4F5C;&#x6587;&#x4EF6;&#x548C;&#x76EE;&#x5F55;"></a>
 
-```Python
-
+```python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 __author__ = 'malinkang'
@@ -83,5 +77,5 @@ print os.listdir(".")
 #列出当前目录所有.zip的文件
 [x for x in os.listdir('.') if os.path.isfile(x) and os.path.splitext(x)[1]==".zip"]
 #输出['genymotion-log.zip']
-
 ```
+
