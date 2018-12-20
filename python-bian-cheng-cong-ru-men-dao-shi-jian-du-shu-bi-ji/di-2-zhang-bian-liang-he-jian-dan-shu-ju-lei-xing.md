@@ -21,7 +21,7 @@ ABC
 
 ### 2.3.1 使用方法修改字符串的大小
 
-```python 
+```python
 >>> name = "ada lovelace"
 >>> print(name.title())
 Ada Lovelace
@@ -47,7 +47,7 @@ Hello, Ada Lovelace!
 >>> print("Python")
 Python
 >>> print("\tPython")
-	Python
+    Python
 >>> print("Language:\nPython\nC\nJavaScript")
 Language:
 Python
@@ -59,7 +59,7 @@ I'm ok.
 
 ### 2.3.4 删除空白
 
-```python 
+```python
 >>> favorite_language = ' python '
 >>> favorite_language
 ' python '
@@ -174,8 +174,7 @@ u'abc'
 0.30000000000000004
 ```
 
-
-### 2.4.3 使用函数str()避免类型
+### 2.4.3 使用函数str\(\)避免类型
 
 ```python
 >>> age = 23 
