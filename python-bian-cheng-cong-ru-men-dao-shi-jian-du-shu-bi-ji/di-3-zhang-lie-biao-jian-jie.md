@@ -34,6 +34,61 @@
 ['M', 'lin', 'kang']
 ```
 
+### 3.2.2 在列表中添加元素
+
+#### 1. 在列表末尾添加元素
+
+```python 
+>>> strs = ['ma','lin','kang']
+>>> strs.append('hello world')
+>>> strs
+['ma', 'lin', 'kang', 'hello world']
+```
+#### 2.在列表中插入元素
+
+```python
+>>> strs = ['ma','kang']
+>>> strs.insert(1,'lin')
+>>> strs
+['ma', 'lin', 'kang']
+```
+### 3.2.3 从列表中删除元素
+
+#### 1.使用del语句删除元素
+
+```python 
+>>> strs = ['ma','lin','kang']
+>>> del strs[1]
+>>> strs
+['ma', 'kang']
+```
+
+#### 2.使用方法pop()删除元素
+
+```python 
+>>> strs = ['ma','lin','kang']
+>>> strs.pop(1)
+'lin'
+>>> strs
+['ma', 'kang']
+>>>
+```
+
+#### 3.根据值删除元素
+
+
+```python 
+>>> strs = ['ma','lin','kang']
+>>> strs.remove('lin')
+>>> strs
+['ma', 'kang']
+#方法remove()只删除第一个指定的值
+>>> strs = ['ma','lin','kang','ma']
+>>> strs.remove('ma')
+>>> strs
+['lin', 'kang', 'ma']
+```
+
 ## 3.3 组织列表
 
 ### 3.3.1 使用方法sort()对列表进行永久排序
