@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Python编程：从入门到实践读书笔记](python-bian-cheng-cong-ru-men-dao-shi-jian-du-shu-bi-ji/README.md)
   * [第2章　变量和简单数据类型](python-bian-cheng-cong-ru-men-dao-shi-jian-du-shu-bi-ji/di-2-zhang-bian-liang-he-jian-dan-shu-ju-lei-xing.md)
-  * [第3章　列表简介](python-bian-cheng-cong-ru-men-dao-shi-jian-du-shu-bi-ji/untitled-1.md)
+  * [第3章　列表简介](python-bian-cheng-cong-ru-men-dao-shi-jian-du-shu-bi-ji/di-3-zhang-lie-biao-jian-jie.md)
   * [第4章　操作列表](python-bian-cheng-cong-ru-men-dao-shi-jian-du-shu-bi-ji/di-4-zhang-cao-zuo-lie-biao.md)
   * [第5章　if语句](python-bian-cheng-cong-ru-men-dao-shi-jian-du-shu-bi-ji/di-5-zhang-if-yu-ju.md)
   * [第6章　字典](python-bian-cheng-cong-ru-men-dao-shi-jian-du-shu-bi-ji/di-6-zhang-zi-dian.md)
