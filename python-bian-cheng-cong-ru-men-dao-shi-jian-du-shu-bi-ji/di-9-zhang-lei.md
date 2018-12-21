@@ -1,8 +1,6 @@
 # 第9章　类
 
-
-
-## 1.创建类 
+## 1.创建类
 
 ```python
 #!/usr/bin/env python
@@ -107,7 +105,7 @@ book.price = 15.5
 print "price is %f" % book.price
 ```
 
-## 2.继承 <a id="2.&#x7EE7;&#x627F;"></a>
+## 2.继承  <a id="2.&#x7EE7;&#x627F;"></a>
 
 ```python
 #继承
@@ -134,3 +132,4 @@ print isinstance(Dog(),Animal)
 
 # True
 ```
+

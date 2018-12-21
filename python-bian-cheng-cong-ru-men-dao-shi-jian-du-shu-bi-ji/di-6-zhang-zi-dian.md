@@ -1,6 +1,5 @@
 # 第6章　字典
 
-
 ## 6.1 一个简单的字典
 
 ```python
@@ -11,7 +10,7 @@
 
 ### 6.2.1 访问字典中的值
 
-```python 
+```python
 >>> strs = {'ma':1,'lin':2,'kang':3}
 #获取长度
 >>> len(strs)
@@ -29,13 +28,11 @@ True
 'a'
 ```
 
-
 ### 6.2.2 添加键值对
 
 ### 6.2.5 删除键值对
 
-
-```python 
+```python
 >>> strs = {'ma':1,'lin':2,'kang':3}
 >>> del strs['ma']
 >>> strs
@@ -46,7 +43,7 @@ True
 
 ### 6.3.1 遍历所有的键值对
 
-```python 
+```python
 >>> user = {'username':'efermi','first':'enrico','last':'fermi'}
 >>> for key,value in user.items():
 ...     print("\nKey: " + key)
@@ -65,7 +62,7 @@ Value: enrico
 
 ### 6.3.2 遍历字典中的所有键
 
-```python 
+```python
 >>> for key in user.keys():
 ...     print(key)
 ...

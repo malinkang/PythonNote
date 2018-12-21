@@ -14,7 +14,7 @@ carolina
 
 ## 4.3 创建数值列表
 
-### 4.3.1 使用函数range()
+### 4.3.1 使用函数range\(\)
 
 ```python
 >>> for value in range(1,5):
@@ -25,7 +25,8 @@ carolina
 3
 4
 ```
-### 4.3.2 使用range()创建数字列表
+
+### 4.3.2 使用range\(\)创建数字列表
 
 ```python
 #使用list()方法
@@ -51,6 +52,7 @@ carolina
 >>> sum(digits)
 45
 ```
+
 ### 4.3.4 列表解析
 
 ```python
@@ -114,3 +116,4 @@ carolina
 >>> strs[]2][1]='Y'
 ('a', 'b', ['X', 'Y'])
 ```
+

@@ -38,12 +38,13 @@
 
 #### 1. 在列表末尾添加元素
 
-```python 
+```python
 >>> strs = ['ma','lin','kang']
 >>> strs.append('hello world')
 >>> strs
 ['ma', 'lin', 'kang', 'hello world']
 ```
+
 #### 2.在列表中插入元素
 
 ```python
@@ -52,20 +53,21 @@
 >>> strs
 ['ma', 'lin', 'kang']
 ```
+
 ### 3.2.3 从列表中删除元素
 
 #### 1.使用del语句删除元素
 
-```python 
+```python
 >>> strs = ['ma','lin','kang']
 >>> del strs[1]
 >>> strs
 ['ma', 'kang']
 ```
 
-#### 2.使用方法pop()删除元素
+#### 2.使用方法pop\(\)删除元素
 
-```python 
+```python
 >>> strs = ['ma','lin','kang']
 >>> strs.pop(1)
 'lin'
@@ -76,8 +78,7 @@
 
 #### 3.根据值删除元素
 
-
-```python 
+```python
 >>> strs = ['ma','lin','kang']
 >>> strs.remove('lin')
 >>> strs
@@ -91,9 +92,9 @@
 
 ## 3.3 组织列表
 
-### 3.3.1 使用方法sort()对列表进行永久排序
+### 3.3.1 使用方法sort\(\)对列表进行永久排序
 
-```python 
+```python
 >>> cars = ['bmw','audi','toyota','subaru']
 >>> cars.sort()
 >>> print(cars)
@@ -104,7 +105,7 @@
 ['toyota', 'subaru', 'bmw', 'audi']
 ```
 
-### 3.3.2 使用函数sorted()对列表进行临时排序
+### 3.3.2 使用函数sorted\(\)对列表进行临时排序
 
 ```python
 >>> cars = ['bmw','audi','toyota','subaru']
@@ -126,6 +127,7 @@
 >>> print(cars)
 ['subaru', 'toyota', 'audi', 'bmw']
 ```
+
 ### 3.3.4 确定列表的长度
 
 ```python
@@ -133,3 +135,4 @@
 >>> len(cars)
 4
 ```
+

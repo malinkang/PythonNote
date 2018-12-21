@@ -1,8 +1,6 @@
 # 第10章　文件和异常
 
-
-
-## 1.文件读写 <a id="1.&#x6587;&#x4EF6;&#x8BFB;&#x5199;"></a>
+## 1.文件读写  <a id="1.&#x6587;&#x4EF6;&#x8BFB;&#x5199;"></a>
 
 ```python
 #!/usr/bin/env python
@@ -28,7 +26,7 @@ with open("/Users/malinkang/Documents/Git/PythonNote/SUMMARY.md", 'w') as f:
     print f.write('Hello,world')
 ```
 
-## 2.操作文件和目录 <a id="2.&#x64CD;&#x4F5C;&#x6587;&#x4EF6;&#x548C;&#x76EE;&#x5F55;"></a>
+## 2.操作文件和目录  <a id="2.&#x64CD;&#x4F5C;&#x6587;&#x4EF6;&#x548C;&#x76EE;&#x5F55;"></a>
 
 ```python
 #!/usr/bin/env python
