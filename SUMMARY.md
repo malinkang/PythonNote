@@ -11,9 +11,4 @@
   * [第8章　函数](python-bian-cheng-cong-ru-men-dao-shi-jian-du-shu-bi-ji/di-8-zhang-han-shu.md)
   * [第9章　类](python-bian-cheng-cong-ru-men-dao-shi-jian-du-shu-bi-ji/di-9-zhang-lei.md)
   * [第10章　文件和异常](python-bian-cheng-cong-ru-men-dao-shi-jian-du-shu-bi-ji/di-10-zhang-wen-jian-he-yi-chang.md)
-* [基础](ji-chu.md)
-* [函数](han-shu.md)
-* [面向对象](mian-xiang-dui-xiang.md)
-* [IO编程](io-bian-cheng.md)
-* [数据库操作](shu-ju-ku-cao-zuo.md)
 
