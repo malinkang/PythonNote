@@ -77,6 +77,20 @@ I'm ok.
 
 在`Python2`中，无需将要打印的内容放在括号内。从技术上说，`Python3`中的`print`是一个函数，因此括号必不可少。有些`Python2`的`print`语句也可包含括号，但其行为与`Python3`中稍有不同。简单地说，在`Python2`代码中，有些print语句包含括号，有些不包含。
 
+```python
+>>> print 'hello, world'
+hello, world
+#print语句也可以跟上多个字符串，用逗号“,”隔开，就可以连成一串输出：
+>>> print 'The quick brown fox', 'jumps over', 'the lazy dog'
+#print会依次打印每个字符串，遇到逗号“,”会输出一个空格，因此，输出的字符串是这样拼起来的：
+The quick brown fox jumps over the lazy dog
+>>> print 100 + 200
+300
+>>> print '100 + 200 =', 100 + 200
+100 + 200 = 300
+>>>
+```
+
 ### 2.3.7 占位符
 
 ```python
