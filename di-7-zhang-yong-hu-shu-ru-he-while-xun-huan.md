@@ -1,8 +1,6 @@
-# 第7章 用户输入和while循环
+# 第7章　用户输入和while循环
 
-## 第7章　用户输入和while循环
-
-## 7.1 函数input\(\)的工作原理
+## 7.1 函数input()的工作原理
 
 ### 7.1.4 在Python2.7中获取输入
 
@@ -20,9 +18,9 @@ please enter your namemalinkang
 hello, malinkang
 ```
 
-### 7.2 while循环简介
+## 7.2 while循环简介
 
-#### 7.2.1 使用while循环
+### 7.2.1 使用while循环
 
 ```python
 sum = 0
@@ -33,9 +31,8 @@ while n > 0:
 print sum
 ```
 
-#### 7.2.4 使用break退出循环
+### 7.2.4 使用break退出循环
 
-#### 7.2.5 在循环中使用continue
+### 7.2.5 在循环中使用continue
 
-#### 7.2.6 避免无限循环
-
+### 7.2.6 避免无限循环
