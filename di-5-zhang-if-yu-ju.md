@@ -1,4 +1,4 @@
-# 第5章 if语句
+# 第5章　if语句
 
 ## 5.3 if语句
 
@@ -9,6 +9,10 @@ age = 20
 if age >= 18:
     print 'your age is', age
     print 'adult'
+```
+
+```python
+if age is not None#判断是否
 ```
 
 ### 5.3.2 if-else语句
@@ -43,4 +47,3 @@ if x:
 ```
 
 只要x是非零数值、非空字符串、非空list等，就判断为True，否则为False。
-
