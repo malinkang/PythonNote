@@ -152,7 +152,7 @@ print(results)
 ['bmw', 'audi', 'toyota', 'subaru']
 ```
 
-### 翻转列表
+## 翻转列表
 
 ```python
 >>> cars = ['bmw','audi','toyota','subaru']
@@ -163,3 +163,14 @@ print(results)
 ['subaru', 'toyota', 'audi', 'bmw']
 ```
 
+## 切片
+
+```python
+l = list(range(0,10))
+print(l) #[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+#不写的话默认是开头和结尾
+print(l[:]) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(l[:-1]) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(l[-1:]) # [9]
+print(l[-2:9]) # [8]
+```

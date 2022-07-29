@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * [第2章　变量和简单数据类型](di-2-zhang-bian-liang-he-jian-dan-shu-ju-lei-xing.md)
-* [第3章　列表简介](di-3-zhang-lie-biao-jian-jie.md)
 * [第5章　if语句](di-5-zhang-if-yu-ju.md)
 * [列表](list.md)
 * [字典](dict.md)
