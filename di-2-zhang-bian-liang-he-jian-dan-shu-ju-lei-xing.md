@@ -1,4 +1,4 @@
-# 第2章 变量和简单数据类型
+# 第2章　变量和简单数据类型
 
 ## 2.2 变量
 
@@ -19,7 +19,7 @@ ABC
 
 在Python中，用引号括起来的都是字符串，其中的引号可以是单引号，也可以是双引号。
 
-### 2.3.1 使用方法修改字符串的大小
+### 2.3.1 大小写转换
 
 ```python
 >>> name = "ada lovelace"
@@ -31,7 +31,7 @@ ADA LOVELACE
 ada lovelace
 ```
 
-### 2.3.2 合并（拼接）字符串
+### 2.3.2 拼接字符串
 
 ```java
 >>> first_name = "ada"
@@ -114,12 +114,12 @@ u'Hi, malinkang'
 
 常见占位符
 
-| 占位符 |  |
-| :--- | :--- |
-| %d | 整数 |
-| %f | 浮点数 |
-| %s | 字符串 |
-| %x | 十六进制整数 |
+| 占位符 |        |
+| --- | ------ |
+| %d  | 整数     |
+| %f  | 浮点数    |
+| %s  | 字符串    |
+| %x  | 十六进制整数 |
 
 ### 2.3.8 其他方法
 
@@ -188,7 +188,7 @@ u'abc'
 0.30000000000000004
 ```
 
-### 2.4.3 使用函数str\(\)避免类型
+### 2.4.3 使用函数str()避免类型
 
 ```python
 >>> age = 23 
@@ -217,4 +217,12 @@ Happy 23rd Birthday!
 ### 2.5.1 该编写什么样的注释
 
 ## 2.6 Python之禅
+
+
+
+## 参考
+
+* [Does Python have a string 'contains' substring method?](https://stackoverflow.com/questions/3437059/does-python-have-a-string-contains-substring-method)
+
+
 
