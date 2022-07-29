@@ -208,15 +208,6 @@ TypeError: cannot concatenate 'str' and 'int' objects
 Happy 23rd Birthday!
 ```
 
-### 2.4.4 Python2中的整数
-
-## 2.5 注释
-
-### 2.5.1 如何编写注释
-
-### 2.5.1 该编写什么样的注释
-
-## 2.6 Python之禅
 
 
 

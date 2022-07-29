@@ -1,14 +1,13 @@
-# 第6章 字典
+# 字典
 
-## 6.1 一个简单的字典
+## 创建字典
 
 ```python
 >>> strs = {'ma':1,'lin':2,'kang':3}
 ```
 
-## 6.2 使用字典
 
-### 6.2.1 访问字典中的值
+## 访问字典中的值
 
 ```python
 >>> strs = {'ma':1,'lin':2,'kang':3}
@@ -28,9 +27,7 @@ True
 'a'
 ```
 
-### 6.2.2 添加键值对
-
-### 6.2.5 删除键值对
+## 删除键值对
 
 ```python
 >>> strs = {'ma':1,'lin':2,'kang':3}
@@ -39,9 +36,9 @@ True
 {'kang': 3, 'lin': 2}
 ```
 
-## 6.3 遍历字典
+## 遍历字典
 
-### 6.3.1 遍历所有的键值对
+### 遍历所有的键值对
 
 ```python
 >>> user = {'username':'efermi','first':'enrico','last':'fermi'}
@@ -60,7 +57,7 @@ Key: first
 Value: enrico
 ```
 
-### 6.3.2 遍历字典中的所有键
+### 遍历字典中的所有键
 
 ```python
 >>> for key in user.keys():
@@ -71,7 +68,7 @@ last
 first
 ```
 
-### 6.3.4 遍历字典中的所有值
+### 遍历字典中的所有值
 
 ```python
 >>> for value in user.values():
