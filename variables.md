@@ -1,4 +1,4 @@
-# 第2章　变量和简单数据类型
+# 变量和简单数据类型
 
 ## 2.2 变量
 
@@ -172,6 +172,26 @@ u'abc'
 1000000
 ```
 
+### 进制转换
+
+```python
+#十进制转十六进制
+>>> print(hex(15))
+0xf
+#十进制转八进制
+>>> print(oct(15))
+0o17
+#十进制转二进制
+>>> print(bin(15))
+0b1111
+#十六进制转十进制
+>>> print(int("0xf",16))
+15
+#二进制转十进制
+>>> print(int("0b1111",2))
+15
+```
+
 ### 2.4.2 浮点数
 
 ```python
@@ -207,9 +227,6 @@ TypeError: cannot concatenate 'str' and 'int' objects
 >>> print(message)
 Happy 23rd Birthday!
 ```
-
-
-
 
 ## 参考
 

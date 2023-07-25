@@ -1,4 +1,9 @@
-# 第9章 类
+---
+tags: 
+    - Python
+comments: true
+---
+# 类
 
 ## 1.创建类
 

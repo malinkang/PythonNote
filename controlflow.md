@@ -1,8 +1,14 @@
-# 第5章　if语句
+---
+tags: 
+    - Python
+comments: true
+---
 
-## 5.3 if语句
+# 控制流程
 
-### 5.3.1 简单的if语句
+## if语句
+
+### 简单的if语句
 
 ```python
 age = 20
@@ -15,7 +21,7 @@ if age >= 18:
 if age is not None#判断是否
 ```
 
-### 5.3.2 if-else语句
+### if-else语句
 
 ```python
 age = 3
@@ -27,7 +33,7 @@ else:
     print 'teenager'
 ```
 
-### 5.3.3 if-elif-else语句
+### if-elif-else语句
 
 ```python
 age = 3
@@ -47,3 +53,39 @@ if x:
 ```
 
 只要x是非零数值、非空字符串、非空list等，就判断为True，否则为False。
+
+## for循环
+
+```python
+for i in range(5):
+    print(i)
+```
+
+```python
+for i in range(0,10,2):
+    print(i)
+```
+
+输出：
+```
+0
+2
+4
+6
+8
+```
+
+## while循环
+
+```python
+sum = 0
+n = 99
+while n > 0:
+    sum = sum + n
+    n = n - 2
+print sum
+```
+
+## 参考
+
+* [4. More Control Flow Tools](https://docs.python.org/3/tutorial/controlflow.html)
