@@ -1,6 +1,6 @@
 ---
-tags: 
-    - Python
+tags:
+  - Python
 comments: true
 ---
 

@@ -5,8 +5,6 @@
 ```python
 >>> strs = {'ma':1,'lin':2,'kang':3}
 ```
-
-
 ## 访问字典中的值
 
 ```python

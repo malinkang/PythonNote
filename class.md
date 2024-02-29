@@ -1,7 +1,10 @@
 ---
-tags: 
-    - Python
+tags:
+  - Python
 comments: true
+link: https://www.notion.so/class-9a6149299b144f54b72a186dc2faa3f3
+notionID: 9a614929-9b14-4f54-b72a-186dc2faa3f3
+date: 2017-08-02 13:47:12
 ---
 # 类
 
